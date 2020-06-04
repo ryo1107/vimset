@@ -34,6 +34,11 @@ set ignorecase " 検索パターンに大文字小文字を区別しない
 set smartcase " 検索パターンに大文字を含んでいたら大文字小文字を区別する
 set hlsearch " 検索結果をハイライト
 
+" 改行コードなどの可視化 以下参照
+" https://blog.delphinus.dev/2011/08/display-invisible-characters-on-vim.html
+set list
+set listchars=tab:»-,trail:-,eol:↲,extends:»,precedes:«,nbsp:%
+
 " 色つけ
 syntax on
 " colorscheme
